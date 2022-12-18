@@ -1,7 +1,12 @@
 .hmArea {
-  margin-top: 10px;
-  margin-bottom: -150px;
   padding-bottom: 0;
+  height: 320px;
+  width: 400px;
+  margin: 0 auto;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  background-color: transparent;
+  position: relative;
 }
 
 .hmSupport {
@@ -11,7 +16,8 @@
   font-size: 5rem;
   background-color: black;
   position: relative;
-  left: 95px;
+  top: -300px;
+  left: 0px;
 }
 
 .hmPole {
@@ -20,6 +26,9 @@
   height: 300px;
   font-size: 5rem;
   background-color: black;
+  position: relative;
+  top: 10px;
+  left: -95px;
 }
 
 .hmBase {
@@ -28,17 +37,20 @@
   height: 10px;
   font-size: 5rem;
   background-color: black;
+  position: relative;
+  top: 0px;
+  left: -50px;
 }
 
 .hmNeckSupport {
   margin: 0 auto;
   width: 10px;
-  height: 50px;
+  height: 30px;
   font-size: 5rem;
   background-color: black;
   position: relative;
-  top: 50px;
-  left: 200px;
+  left: 95px;
+  top: -300px;
 }
 
 .hmHead {
@@ -48,8 +60,8 @@
   border-radius: 100%;
   border: 10px solid black;
   position: relative;
-  top: -270px;
-  left: 200px;
+  top: -300px;
+  left: 95px;
 }
 
 .hmBody {
@@ -59,8 +71,8 @@
   font-size: 5rem;
   background-color: black;
   position: relative;
-  top: -270px;
-  left: 200px;
+  top: -300px;
+  left: 95px;
 }
 
 .hmLeftArm {
@@ -69,11 +81,11 @@
   height: 10px;
   font-size: 5rem;
   background-color: black;
-  position: relative;
-  top: -380px;
-  left: 310px;
   transform: rotate(160deg);
   transform-origin: bottom left;
+  position: relative;
+  top: -415px;
+  left: 210px;
 }
 
 .hmRightArm {
@@ -82,11 +94,11 @@
   height: 10px;
   font-size: 5rem;
   background-color: black;
-  position: relative;
-  top: -355px;
-  left: 155px;
   transform: rotate(20deg);
   transform-origin: bottom right;
+  position: relative;
+  top: -390px;
+  left: 50px;
 }
 
 .hmLeftLeg {
@@ -95,12 +107,11 @@
   height: 10px;
   font-size: 5rem;
   background-color: black;
-  position: relative;
-  top: -250px;
-  left: 300px;
   transform: rotate(225deg);
   transform-origin: bottom left;
-  overflow: hidden;
+  position: relative;
+  left: 195px;
+  top: -280px;
 }
 
 .hmRightLeg {
@@ -109,10 +120,9 @@
   height: 10px;
   font-size: 5rem;
   background-color: black;
-  position: relative;
-  top: -315px;
-  left: 165px;
   transform: rotate(310deg);
   transform-origin: bottom right;
-  overflow: hidden;
+  position: relative;
+  left: 60px;
+  top: -340px;
 }
