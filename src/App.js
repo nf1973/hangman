@@ -51,27 +51,31 @@ function App() {
 const Win = styled.div`
   font-size: 2rem;
   font-weight: bold;
-  color: green;
+  color: #04d9ff;
   position: relative;
-  top: -350px;
-  background-color: white;
-  border: 1px solid black;
-  width: 80%;
+  top: -550px;
+  background-color: #4b4b4b;
+  border: 5px solid #04d9ff;
+  width: 60%;
   margin: 0 auto;
   text-transform: uppercase;
+  text-align: center;
+  padding: 20px;
 `;
 
 const Lose = styled.div`
   font-size: 2rem;
   font-weight: bold;
-  color: red;
+  color: #04d9ff;
   position: relative;
   top: -550px;
-  background-color: white;
-  border: 1px solid black;
-  width: 80%;
+  background-color: #4b4b4b;
+  border: 5px solid #04d9ff;
+  width: 60%;
   margin: 0 auto;
   text-transform: uppercase;
+  text-align: center;
+  padding: 20px;
 `;
 
 export default App;

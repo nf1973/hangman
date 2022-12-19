@@ -26,11 +26,12 @@ const Letters = styled.div`
 `;
 
 const Letter = styled.div`
-  border-bottom: 5px solid black;
+  border-bottom: 5px solid #04d9ff;
   min-width: 2rem;
   text-transform: uppercase;
   font-weight: bold;
   font-size: 3rem;
+  color: #04d9ff;
 `;
 
 export default Word;
