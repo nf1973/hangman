@@ -5,9 +5,6 @@ import styled from "styled-components";
 import { useState } from "react";
 import { germanWords } from "./data/german.js";
 
-// const wordNum = Math.floor(Math.random() * words.length);
-// const word = words[wordNum].toLowerCase();
-
 const word =
   germanWords[Math.floor(Math.random() * germanWords.length)].toLowerCase();
 console.log(word); //Cheat mode!
