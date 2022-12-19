@@ -3,11 +3,13 @@ import Word from "./components/Word";
 import Keyboard from "./components/Keyboard";
 import styled from "styled-components";
 import { useState } from "react";
-import { words } from "./data/data.js";
-import "./App.css";
+import { germanWords } from "./data/german.js";
 
-const wordNum = Math.floor(Math.random() * words.length);
-const word = words[wordNum].toLowerCase();
+// const wordNum = Math.floor(Math.random() * words.length);
+// const word = words[wordNum].toLowerCase();
+
+const word =
+  germanWords[Math.floor(Math.random() * germanWords.length)].toLowerCase();
 console.log(word); //Cheat mode!
 
 function App() {
@@ -27,7 +29,7 @@ function App() {
   }
 
   return (
-    <div className="App">
+    <div>
       <Hangman clickedWrongKeys={clickedWrongKeys} />
       <Word word={word} clickedRightKeys={clickedRightKeys} />
       <Keyboard
