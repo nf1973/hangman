@@ -64,6 +64,7 @@ const AllKeys = styled.div`
   justify-content: space-evenly;
   gap: 1rem;
   margin: 40px;
+  text-align: center;
 `;
 
 const KeyButton = styled.button`
