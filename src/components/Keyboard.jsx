@@ -68,7 +68,7 @@ const AllKeys = styled.div`
 `;
 
 const KeyButton = styled.button`
-  border: 1px solid black;
+  border: 1px solid #00beff;
   padding: 1rem;
   font-size: 2rem;
   font-weight: bold;
@@ -76,20 +76,16 @@ const KeyButton = styled.button`
   background: none;
   aspect-ratio: 1/1;
   border-radius: 5px;
+  color: #04d9ff;
 
   :hover {
-    background-color: blue;
-    color: white;
-  }
-
-  > disabled {
-    background-color: #444;
-    color: ddd;
+    background-color: #00beff;
+    color: #1b2a33;
   }
 `;
 
 const KeyButtonWrong = styled.button`
-  border: 1px solid black;
+  border: 1px solid #00677a;
   padding: 1rem;
   font-size: 2rem;
   font-weight: bold;
@@ -97,8 +93,8 @@ const KeyButtonWrong = styled.button`
   background: none;
   aspect-ratio: 1/1;
   border-radius: 5px;
-  background-color: #3e3e3e;
-  color: #f3f3f3;
+  background-color: #1b2a33;
+  color: #00677a;
 `;
 
 const KeyButtonRight = styled.button`
@@ -110,6 +106,6 @@ const KeyButtonRight = styled.button`
   background: none;
   aspect-ratio: 1/1;
   border-radius: 5px;
-  background-color: #007b02;
-  color: #e7e7e7;
+  background-color: #00beff;
+  color: #1b2a33;
 `;

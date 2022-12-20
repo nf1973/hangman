@@ -3,11 +3,10 @@ import Word from "./components/Word";
 import Keyboard from "./components/Keyboard";
 import styled from "styled-components";
 import { useState } from "react";
-import { words } from "./data/data.js";
-import "./App.css";
+import { germanWords } from "./data/german.js";
 
-const wordNum = Math.floor(Math.random() * words.length);
-const word = words[wordNum].toLowerCase();
+const word =
+  germanWords[Math.floor(Math.random() * germanWords.length)].toLowerCase();
 console.log(word); //Cheat mode!
 
 function App() {
@@ -27,7 +26,7 @@ function App() {
   }
 
   return (
-    <div className="App">
+    <div>
       <Hangman clickedWrongKeys={clickedWrongKeys} />
       <Word word={word} clickedRightKeys={clickedRightKeys} />
       <Keyboard
@@ -49,27 +48,31 @@ function App() {
 const Win = styled.div`
   font-size: 2rem;
   font-weight: bold;
-  color: green;
+  color: #00beff;
   position: relative;
-  top: -350px;
-  background-color: white;
-  border: 1px solid black;
-  width: 80%;
+  top: -550px;
+  background-color: #1b2a33;
+  border: 5px solid #00beff;
+  width: 60%;
   margin: 0 auto;
   text-transform: uppercase;
+  text-align: center;
+  padding: 20px;
 `;
 
 const Lose = styled.div`
   font-size: 2rem;
   font-weight: bold;
-  color: red;
+  color: #00beff;
   position: relative;
   top: -550px;
-  background-color: white;
-  border: 1px solid black;
-  width: 80%;
+  background-color: #1b2a33;
+  border: 5px solid #00beff;
+  width: 60%;
   margin: 0 auto;
   text-transform: uppercase;
+  text-align: center;
+  padding: 20px;
 `;
 
 export default App;
