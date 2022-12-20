@@ -32,6 +32,7 @@ const Letter = styled.div`
   font-weight: bold;
   font-size: 3rem;
   color: #00beff;
+  text-align: center;
 `;
 
 export default Word;
