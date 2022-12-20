@@ -48,11 +48,11 @@ function App() {
 const Win = styled.div`
   font-size: 2rem;
   font-weight: bold;
-  color: #04d9ff;
+  color: #00beff;
   position: relative;
   top: -550px;
   background-color: #4b4b4b;
-  border: 5px solid #04d9ff;
+  border: 5px solid #00beff;
   width: 60%;
   margin: 0 auto;
   text-transform: uppercase;
@@ -63,11 +63,11 @@ const Win = styled.div`
 const Lose = styled.div`
   font-size: 2rem;
   font-weight: bold;
-  color: #04d9ff;
+  color: #00beff;
   position: relative;
   top: -550px;
   background-color: #4b4b4b;
-  border: 5px solid #04d9ff;
+  border: 5px solid #00beff;
   width: 60%;
   margin: 0 auto;
   text-transform: uppercase;

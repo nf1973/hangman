@@ -67,7 +67,7 @@ const AllKeys = styled.div`
 `;
 
 const KeyButton = styled.button`
-  border: 1px solid #04d9ff;
+  border: 1px solid #00beff;
   padding: 1rem;
   font-size: 2rem;
   font-weight: bold;
@@ -78,7 +78,7 @@ const KeyButton = styled.button`
   color: #04d9ff;
 
   :hover {
-    background-color: #04d9ff;
+    background-color: #00beff;
     color: #4b4b4b;
   }
 `;
@@ -105,6 +105,6 @@ const KeyButtonRight = styled.button`
   background: none;
   aspect-ratio: 1/1;
   border-radius: 5px;
-  background-color: #04d9ff;
+  background-color: #00beff;
   color: #4b4b4b;
 `;
