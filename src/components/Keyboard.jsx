@@ -79,7 +79,7 @@ const KeyButton = styled.button`
 
   :hover {
     background-color: #00beff;
-    color: #4b4b4b;
+    color: #1b2a33;
   }
 `;
 
@@ -92,7 +92,7 @@ const KeyButtonWrong = styled.button`
   background: none;
   aspect-ratio: 1/1;
   border-radius: 5px;
-  background-color: #3d3d3d;
+  background-color: #1b2a33;
   color: #00677a;
 `;
 
@@ -106,5 +106,5 @@ const KeyButtonRight = styled.button`
   aspect-ratio: 1/1;
   border-radius: 5px;
   background-color: #00beff;
-  color: #4b4b4b;
+  color: #1b2a33;
 `;

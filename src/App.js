@@ -51,7 +51,7 @@ const Win = styled.div`
   color: #00beff;
   position: relative;
   top: -550px;
-  background-color: #4b4b4b;
+  background-color: #1b2a33;
   border: 5px solid #00beff;
   width: 60%;
   margin: 0 auto;
@@ -66,7 +66,7 @@ const Lose = styled.div`
   color: #00beff;
   position: relative;
   top: -550px;
-  background-color: #4b4b4b;
+  background-color: #1b2a33;
   border: 5px solid #00beff;
   width: 60%;
   margin: 0 auto;
